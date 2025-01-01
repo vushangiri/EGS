@@ -1,0 +1,22 @@
+.image-style-pop {
+    border-radius: 14px;  /* Slightly more rounded corners */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25), 
+                0 6px 15px rgba(0, 0, 0, 0.15);  /* Stronger default shadow */
+    transition: transform 0.4s ease, box-shadow 0.4s ease, scale 0.4s ease;  /* Smooth animation */
+    transform: perspective(1000px) translateZ(0);  /* Base for parallax */
+}
+
+.image-style-pop:hover {
+    transform: perspective(1000px) translateY(-8px) translateZ(20px);  /* Parallax pop effect */
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35), 
+                0 8px 20px rgba(0, 0, 0, 0.25);  /* Darker and deeper shadow */
+}
+.hover-eff {
+    color: rgb(49, 49, 49);
+    transition: color 0.3s ease;
+}
+
+.hover-eff:hover {
+    color: rgb(94, 122, 94);
+}
+

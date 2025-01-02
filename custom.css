@@ -96,30 +96,19 @@
     width: 360px;
     height: 360px;
     background: none;
-    transition: box-shadow 0.4s ease, transform 0.4s ease;
-}
-
-.logo-bg {
-    width: 300px;
-    height: 300px;
-    background-color: transparent;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);  /* Circular shadow around logo */
-    transition: box-shadow 0.4s ease, transform 0.4s ease;
+    transition: transform 0.4s ease;
 }
 
 .logo-frame {
     width: 90%;
-    max-width: 270px;  /* Make the logo slightly larger */
-    border-radius: 50%;
+    max-width: 280px;
+    filter: drop-shadow(0 8px 15px rgba(0, 0, 0, 0.2));  /* Drop shadow directly on PNG */
+    transition: filter 0.3s, transform 0.3s;
 }
 
-.logo-bg:hover {
-    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.2);  /* Stronger shadow on hover */
-    transform: translateY(-8px);
+.logo-frame:hover {
+    filter: drop-shadow(0 12px 25px rgba(0, 0, 0, 0.3));  /* Increase shadow on hover */
+    transform: translateY(-5px);  /* Lift effect */
 }
 
 @media (max-width: 768px) {
@@ -137,11 +126,7 @@
         width: 280px;
         height: 280px;
     }
-    .logo-bg {
-        width: 240px;
-        height: 240px;
-    }
     .logo-frame {
-        max-width: 220px;
+        max-width: 230px;
     }
 }

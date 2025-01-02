@@ -93,29 +93,23 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 320px;
-    height: 320px;
-    background: #f8f8f8;
+    width: 340px;
+    height: 340px;
+    background: none;
     border-radius: 20px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.4s ease, transform 0.4s ease;
-    transform: translateY(0);
 }
 
 .logo-frame {
     width: 80%;
     max-width: 250px;
-    border-radius: 15px;
-    transition: transform 0.3s;
-}
-
-.image-frame:hover {
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-    transform: translateY(-8px);
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);  /* Shadow directly on PNG */
 }
 
 .logo-frame:hover {
-    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);  /* Stronger shadow on hover */
+    transform: translateY(-5px);  /* Slight elevation */
 }
 
 @media (max-width: 768px) {

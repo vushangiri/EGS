@@ -482,7 +482,7 @@
                       <div class="col-lg-5 contact-area-1">
                           <div class="" data-aos="fade-left" data-aos-duration="700">
                             <div class="contact9-box">
-                              <div class="icon">
+                              <div class="icon contact-icon-hid">
                                   <img src="assets/img/icons/contact9-icon1.svg" alt="">
                               </div>
                               <div class="heading">
@@ -494,7 +494,7 @@
   
                           <div class="" data-aos="fade-left" data-aos-duration="900">
                             <div class="contact9-box">
-                              <div class="icon">
+                              <div class="icon contact-icon-hid">
                                   <img src="assets/img/icons/contact9-icon2.svg" alt="">
                               </div>
                               <div class="heading">
@@ -506,7 +506,7 @@
   
                           <div class="" data-aos="fade-left" data-aos-duration="1100">
                             <div class="contact9-box">
-                              <div class="icon">
+                              <div class="icon contact-icon-hid">
                                   <img src="assets/img/icons/contact9-icon3.svg" alt="">
                               </div>
                               <div class="heading">
@@ -528,26 +528,89 @@
 
         <!--=====CTA AREA START=======-->
 
-        <div class="cta9" style="background-color: rgba(197, 197, 197, 0.274);">
+        <div class="cta9" style="background: linear-gradient(135deg, #f1f1f1, #d6d6d6); padding: 50px 0;">
           <div class="container">
-              <div class="row">
-                  <div class="col-lg-5">
+              <div class="row align-items-center">
+                  <!-- Text Section -->
+                  <div class="col-lg-6 text-center text-lg-start">
                       <div class="heading6-w">
-                          <h2 style="color: rgb(49, 49, 49);font-size: 36px;">Visit Our Official Restaurant Partner: <a class="hover-eff" target="_blank" href="https://www.facebook.com/tarewasekuwahouse">Tarewa Sekuwa House</a></h2>
-                          <div class="space16" ></div>
-                          <p style="color: rgb(109, 109, 109);">Visit our partner restaurant and get up to 15% off on your total bill. Offer valid through Magh 1 to Magh 3.</p>
-
+                          <h2 style="color: #333; font-size: 42px; font-weight: 700; line-height: 1.4;">
+                              Visit Our Official Restaurant Partner: 
+                              <a class="hover-eff" target="_blank" href="https://www.facebook.com/tarewasekuwahouse" style="color: #ff5733; text-decoration: none; border-bottom: 2px solid #ff5733;">Tarewa Sekuwa House</a>
+                          </h2>
+                          <div style="margin: 20px 0;"></div>
+                          <p style="color: #555; font-size: 18px; line-height: 1.8;">
+                              Enjoy up to <strong>15% off</strong> on your total bill when you visit our partner restaurant from <strong>Magh 1 to Magh 3</strong>. 
+                              Indulge in authentic flavors and experience the best Sekuwa in town!
+                          </p>
+                          <div style="margin-top: 30px;">
+                              <a href="https://www.facebook.com/tarewasekuwahouse" target="_blank" class="cta-button">
+                                  Visit Now
+                              </a>
+                          </div>
                       </div>
                   </div>
-                  <div class="col-md-7" style="display: flex; align-items: center; justify-content: end; height: 100%;">
-                    <div style="width: 300px; height: 300px; display: flex; align-items: center; justify-content: center;">
-                        <a target="_blank" href="https://www.facebook.com/tarewasekuwahouse"><img src="assets/img/tarewa.png" alt="" width="250px" height="250px"></a>
-                    </div>
-                </div>
-                
+                  
+                  <!-- Image Section -->
+                  <div class="col-lg-6 text-center">
+                      <div class="image-frame">
+                          <a target="_blank" href="https://www.facebook.com/tarewasekuwahouse">
+                              <img src="assets/img/tarewa.png" alt="Tarewa Sekuwa House" class="img-fluid">
+                          </a>
+                      </div>
+                  </div>
               </div>
           </div>
       </div>
+      
+      <!-- CSS -->
+      <style>
+          .cta9 {
+              border-radius: 10px;
+              box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+          }
+          
+          .cta-button {
+              background-color: #ff5733;
+              color: #fff;
+              font-size: 18px;
+              padding: 12px 30px;
+              text-decoration: none;
+              border-radius: 25px;
+              display: inline-block;
+              transition: background-color 0.3s;
+          }
+      
+          .cta-button:hover {
+              background-color: #e04e2a;
+          }
+      
+          .image-frame img {
+              width: 80%;
+              max-width: 300px;
+              border-radius: 15px;
+              box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+              transition: transform 0.3s;
+          }
+      
+          .image-frame img:hover {
+              transform: scale(1.05);
+          }
+      
+          @media (max-width: 768px) {
+              .cta9 {
+                  text-align: center;
+              }
+              .heading6-w h2 {
+                  font-size: 32px;
+              }
+              .cta-button {
+                  font-size: 16px;
+                  padding: 10px 25px;
+              }
+          }
+      </style>
+      
 
       <!--=====CTA AREA END=======-->
 

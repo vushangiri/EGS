@@ -55,6 +55,11 @@
         display: none !important;
     }
 }
+@media screen and (max-width: 586px) { 
+    .contact-icon-hid {
+        display: none !important;
+    }
+}
 .howitworks-image {
     position: absolute;
     top: 50% !important;

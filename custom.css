@@ -26,21 +26,21 @@
         padding-right: 0px !important;
     }
     .contact-area-1 {
-        margin-top: 30px;
+        margin-top: 30px !important;
     }
     .contact9-box {
-        margin-left: 0px;
+        margin-left: 0px !important;
     }
 }
 
 .howitworks-image {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
 }
 
 .howitworks-image-overlay {
-    scale: 0.8;
+    scale: 0.8 !important;
 }
 

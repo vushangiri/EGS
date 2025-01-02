@@ -1275,14 +1275,14 @@
    }
 
    .main-heading {
-      padding-right: 0px;
+      padding-right: 70px;
       padding-top: 80px;
 
       @media #{$md} {
-         padding-top: 100px;
+         padding-top: 160px;
       }
       @media #{$xs} {
-         padding-top: 100px;
+         padding-top: 160px;
       }
       span.span {
          color: #2A9134;

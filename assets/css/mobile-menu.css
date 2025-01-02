@@ -292,4 +292,45 @@ Desc:
     padding: 20px 0;
 }
 
-
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    .mobile-header-elements {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile-sidebar {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        z-index: 9999;
+        padding: 40px 30px;
+        left: -100%;
+        top: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: all .3s;
+    }
+    .mobile-sidebar.mobile-menu-active {
+        left: 0;
+        visibility: visible;
+        opacity: 1;
+        transition: all .3s;
+        padding-top: 55px;
+        max-height: 100%;
+        overflow-y: scroll;
+    }
+    .mobile-sidebar {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        z-index: 9999;
+        padding: 40px 30px;
+        left: -100%;
+        top: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: all .3s;
+    }
+}

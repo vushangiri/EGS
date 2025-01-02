@@ -49,6 +49,15 @@
         padding-right: 0px !important;
     }
 }
+
+@media screen and (max-width: 769px) {
+    .about-first-col {
+        margin-top: 0px !important;
+    }
+    .about-second-col img {
+        width: 40% !important;
+    }
+}
 .howitworks-image {
     position: absolute;
     top: 50% !important;

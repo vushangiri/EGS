@@ -31,6 +31,16 @@
     .contact9-box {
         margin-left: 0px !important;
     }
+    .howitworks-image {
+        position: absolute;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+    }
+    
+    .howitworks-image-overlay {
+        scale: 0.8 !important;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -46,7 +56,4 @@
     transform: translate(-50%, -50%) !important;
 }
 
-.howitworks-image-overlay {
-    scale: 0.8 !important;
-}
 

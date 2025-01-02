@@ -20831,8 +20831,8 @@ li.has-dropdown1 span {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .mobile-sidebar {
-    display: none;
+  .d-block {
+    display: none !important;
   }
 }
 @media (max-width: 767px) {

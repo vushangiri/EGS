@@ -20832,7 +20832,7 @@ li.has-dropdown1 span {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .mobile-sidebar {
-    visibility: hidden;
+    display: none;
   }
 }
 @media (max-width: 767px) {

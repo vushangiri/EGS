@@ -51,11 +51,8 @@
 }
 
 @media screen and (max-width: 769px) {
-    .about-first-col {
-        margin-top: 0px !important;
-    }
-    .about-second-col img {
-        width: 40% !important;
+    .about-image-col {
+        display: none !important;
     }
 }
 .howitworks-image {

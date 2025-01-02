@@ -20830,11 +20830,11 @@ li.has-dropdown1 span {
     margin-top: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .d-block {
-    display: none !important;
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .mobile-sidebar {
+    display: none;
   }
-}
+} */
 @media (max-width: 767px) {
   .mobile-sidebar .single-footer-items h3 {
     margin-bottom: 16px;
